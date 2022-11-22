@@ -11,11 +11,11 @@ use edunovapp26;
 
 create table smjer(
     sifra int not null primary key auto_increment,
-    naziv varchar(50),
+    naziv varchar(50) not null,
     cijena decimal(18,2),
     upisnina decimal(18,2),
-    certificiran boolean,
-    trajanje int,
+    certificiran boolean not null,
+    trajanje int not null,
 );
 # KREIRA TABLICU UNUTAR BAZE 
 # "INT NOT NULL PRIMARY KEY AUTO_INCREMENT" OZNACAVA DA CE BAZA ZA SVAKI NOVI UNOS GENERIRATI POSEBNU SIFRU
@@ -27,8 +27,8 @@ create table smjer(
 
 create table grupa(
     sifra int not null primary key auto_increment,
-    naziv varchar(50),
-    maksimalnopolaznika int,
+    naziv varchar(50) not null,
+    maksimalnopolaznika int not null,
     datumpocetka datetime,
     smjer int,
     predavac int
@@ -37,9 +37,9 @@ create table grupa(
 
 create table osoba(
     sifra int not null primary key auto_increment,
-    ime varchar(50),
-    prezime varchar(50),
-    email varchar(50),
+    ime varchar(50) not null,
+    prezime varchar(50) not null,
+    email varchar(50) not null,
     oib char(11)
 );
 
