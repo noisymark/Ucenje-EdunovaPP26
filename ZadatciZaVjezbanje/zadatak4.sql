@@ -1,7 +1,7 @@
 # /Applications/XAMPP/xamppfiles/bin/./mysql -uroot < "/Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/ZadatciZaVjezbanje/zadatak4.sql"
 
 drop database if exists samostan;
-create database samostan character set utf8;
+create database samostan default charset utf8;
 use samostan;
 
 create table svecenik (

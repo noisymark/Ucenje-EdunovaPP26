@@ -1,7 +1,7 @@
 # /Applications/XAMPP/xamppfiles/bin/./mysql -uroot < "/Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/ZadatciZaVjezbanje/zadatak2.sql"
 
 drop database if exists odgojnaskupina;
-create database odgojnaskupina character set utf8;
+create database odgojnaskupina default charset utf8;
 use odgojnaskupina;
 
 create table odgojnaskupina(

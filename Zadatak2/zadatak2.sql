@@ -1,7 +1,7 @@
 # /Applications/XAMPP/bin/./mysql -uroot < /Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/zadatak2.sql
 
 drop database if exists zadatak2;
-create database zadatak2;
+create database zadatak2 default charset utf8;
 use zadatak2;
 
 create table opcina(

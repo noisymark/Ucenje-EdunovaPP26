@@ -4,7 +4,7 @@
 
 drop database if exists edunovapp26;
 # BRISE STARU BAZU PODATAKA AKO VEC POSTOJI DA BI MOGLI NAPRAVITI NOVU VERZIJU
-create database edunovapp26 character set utf8;
+create database edunovapp26 default charset utf8;
 # KREIRA NOVU BAZU PODATAKA "EDUNOVAPP26"
 use edunovapp26;
 # KORISTIMO NOVU BAZU PODATAKA DA BI U NJU POHRANILI NOVE ENTITETE I VRSTE PODATAKA

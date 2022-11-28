@@ -1,7 +1,7 @@
 # /Applications/XAMPP/xamppfiles/bin/./mysql -uroot < "/Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/ZadatciZaVjezbanje/zadatak5.sql"
 
 drop database if exists taxisluzba;
-create database taxisluzba character set utf8;
+create database taxisluzba default charset utf8;
 use taxisluzba;
 
 create table taxisluzba(
