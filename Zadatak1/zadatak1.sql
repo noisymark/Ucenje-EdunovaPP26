@@ -1,4 +1,4 @@
-# /Applications/XAMPP/bin/./mysql -uroot < /Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/zadatak1.sql
+# /Applications/XAMPP/bin/./mysql -uroot --default_character_set=utf8 < "/Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/zadatak1.sql"
 
 drop database if exists zadatak1;
 create database zadatak1 default charset utf8;
