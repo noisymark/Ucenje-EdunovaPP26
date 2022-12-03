@@ -138,4 +138,4 @@ from sestra a
 left join sestra_svekar b on a.sifra = b.sestra
 where b.sestra is null;
 
-
+# RIJESENO U 00:43:51

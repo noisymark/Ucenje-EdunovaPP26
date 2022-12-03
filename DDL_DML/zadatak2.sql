@@ -125,3 +125,5 @@ inner join decko_zarucnica e on d.sifra = e.decko
 inner join zarucnica f on e.zarucnica = f.sifra
 where c.drugiputa is not null and d.vesta like '%ba%'
 order by b.haljina asc;
+
+# RIJESENO U 00:36:12
