@@ -1,6 +1,6 @@
 # LJESTVE (HASH) JE KOMENTAR I ON SE NE IZVODI
 # KOMANDA KOJA SE LIJEPI U SHELL (MACOS) JE U LINIJI ISPOD
-# /Applications/XAMPP/xamppfiles/bin/./mysql -uroot < "/Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/skripta.sql"
+# /Applications/XAMPP/xamppfiles/bin/./mysql -uroot --default_character_set=utf8 < "/Users/marko/Documents/EdunovaPP26/Ucenje-EdunovaPP26/skripta.sql"
 
 drop database if exists edunovapp26;
 # BRISE STARU BAZU PODATAKA AKO VEC POSTOJI DA BI MOGLI NAPRAVITI NOVU VERZIJU
