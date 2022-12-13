@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+
+#vecitext{
+    font-size: 2rem;
+    color: #ff00ff;
+}
+
+.lepo{
+    font-size: 1rem;
+    color: blue;
+}
