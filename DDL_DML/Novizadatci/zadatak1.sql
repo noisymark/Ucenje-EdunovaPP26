@@ -6,7 +6,7 @@ use muskarac_neprijateljica;
 
 create table muskarac(
     id int not null primary key auto_increment,
-    maraka decimal 17,7 not null,
+    maraka decimal (17,7) not null,
     hlace varchar(45) not null,
     prstena int,
     neprijateljica int
@@ -47,5 +47,15 @@ create table zarucnica(
     nausnica int not null
 );
 
-# DBeaver ne zeli uopce spremati funkcije ni procedure pa sam prekinuo zadatak i javio se predavacu 
-# :(
+alter table muskarac add foreign key (neprijateljica) references neprijateljica(id);
+
+# Napravljena prva funkcija, ne vraća -1 i ne baca grešku za sintaksu
+
+drop function if exists zadatak1;
+delimiter $$
+create function zadatak1() returns int
+begin
+	return FLOOR( RAND() * (5098-980) + 980);
+end;
+$$
+delimiter ;
