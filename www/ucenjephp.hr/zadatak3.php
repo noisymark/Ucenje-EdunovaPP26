@@ -28,6 +28,8 @@ if($broj1 < $broj2 && $broj1 < $broj3){
     echo $text3 , $text2;
 } else if ($broj3 < $broj2 && $broj3 < $broj1){
     echo $text1 , $broj3 , $text2;
+} else if ($broj1 === $broj2 || $broj2 === $broj3){
+  echo 'Unijeli ste 2 ista broja. Unesite sva 3 različita broja.';
 }
 ?>
 
