@@ -18,6 +18,7 @@
           <li><a href="zadatak1.php?boja=red">Zadatak 1</a></li>
           <li><a href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
           <li><a href="zadatak3.php?broj1=12&broj2=13&broj3=14">Zadatak 3</a></li>
+          <li><a href="ciklicnatablica.php?broj1=12&broj2=13">Ciklična tablica</a></li>
         </ul>
       </li>
     </ul>
