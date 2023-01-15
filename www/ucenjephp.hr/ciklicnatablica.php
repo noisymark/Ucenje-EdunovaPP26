@@ -12,7 +12,7 @@ $br3 = (int) $br1 * $br2;
 $aa=[];
 // For every instance of the loop adding the current loop number to the end of the array
 // So that in the end, the array will start with the highest number and end with 0
-for($i=$br1*$br2;$i>=0;$i--){
+for($i=$br1*$br2;$i>0;$i--){
     array_push($aa,$i);
 }
 // Displaying the results in RAW mode
@@ -20,3 +20,13 @@ echo '<pre>';
 var_dump($aa);
 echo '</pre>';
 
+echo '<table style="text-align:center;">';
+for($i=$br2;$i>0;$i--){
+    echo '<tr>';
+        for($j=$br1;$j>0;$j--){
+            echo '<td>' . $br3 . '</td>';
+            $br3-=1;
+        }
+    echo '</tr>';
+}
+echo '</table>';
